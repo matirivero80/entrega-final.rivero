@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: burlywood;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.d-item {
+  height: 400px;
+}
+
+.d-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: black;
+  text-decoration: underline;
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+
+h2:hover {
+  transform: rotate(360deg);
+}
+
+.galeria {
+  height: 700px;
+  width: 100%;
+  background-color: springgreen;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 350px);
+}
+
+.foto {
+  background-size: cover;
+  background-position: center;
+  border: 5px solid;
+}
+
+.foto1 {
+  background-image: url(./fotos_muebles/download.jpg);
+}
+
+.foto2 {
+  background-image: url(./fotos_muebles/images.jpg);
+}
+
+.foto3 {
+  background-image: url(./fotos_muebles/furniture-964584_1280.jpg);
+}
+
+.foto4 {
+  background-image: url(./fotos_muebles/mesita\ ratona.png);
+}
+
+.foto5 {
+  background-image: url(./fotos_muebles/mesita\ ratona\ 2.jpg);
+}
+
+.foto6 {
+  background-image: url(./fotos_muebles/mesita\ ratona\ 3.jpg);
+}
+
+.foto7 {
+  background-image: url(./fotos_muebles/mesita\ ratona\ 4.jpeg);
+}
+
+.foto8 {
+  background-image: url(./fotos_muebles/WhatsApp\ Image\ 2023-07-05\ at\ 23.32.36.jpeg);
+}
+
+.nosotros {
+  font-size: 30px;
+  color: brown;
+  text-decoration: underline;
+}
+
+.parrafo {
+  color: black;
+  font-size: 15px;
+}
+
+.copy {
+  font-size: 25px;
+  padding: 15px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+h4 {
+  color: green;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+textarea {
+  margin-left: 5px;
+  width: 70%;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nuevos {
+  margin-top: 5%;
+  width: 70%;
+  border: solid 5px black;
+  margin-left: 15%;
+  transform: scale(1);
+  transition: all 2s;
+}
+
+.nuevos:hover {
+  transform: scale(1.4);
+}
+
+.nuevos2 {
+  width: 70%;
+  border: solid 5px black;
+  margin-left: 15%;
+  transform: scale(1);
+  transition: all 2s;
+}
+
+.nuevos2:hover {
+  transform: scale(1.4);
+}
+
+.nuevos3 {
+  width: 70%;
+  border: solid 5px black;
+  transform: scale(1);
+  transition: all 2s;
+  margin-left: 15%;
+}
+
+.nuevos3:hover {
+  transform: scale(1.4);
+}
+
+.roble {
+  text-align: center;
+}
+
+.proximos-lanzamientos {
+  color: green;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.redes {
+  font-size: 30px;
+  margin-left: 40%;
+  padding: 10px;
+}
+
+.instagram {
+  color: blueviolet;
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+
+.instagram:hover {
+  transform: rotate(180deg);
+}
+
+.facebook {
+  color: blue;
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+
+.facebook:hover {
+  transform: rotate(-90deg);
+}
+
+.whatsapp {
+  color: darkgreen;
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+
+.whatsapp:hover {
+  transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 184px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .proximos-lanzamientos {
+    font-size: 25px;
+  }
+  .copy {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h4 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .nosotros {
+    font-size: 15px;
+  }
+  .parrafo {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .redes {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
