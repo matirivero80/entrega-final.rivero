@@ -19,7 +19,7 @@ body {
   filter: brightness(0.6);
 }
 
-h2 {
+.fotogaleria {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
@@ -29,7 +29,7 @@ h2 {
   transition: all 2s;
 }
 
-h2:hover {
+.fotogaleria:hover {
   transform: rotate(360deg);
 }
 
@@ -88,17 +88,17 @@ h2:hover {
 
 .parrafo {
   color: black;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .copy {
   font-size: 25px;
-  padding: 15px;
+  padding: 10px;
   margin-top: 5%;
   text-align: center;
 }
 
-h4 {
+.h4 {
   color: green;
   font-size: 40px;
   text-decoration: underline;
@@ -126,7 +126,7 @@ textarea {
 }
 
 .nuevos:hover {
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
 
 .nuevos2 {
@@ -138,7 +138,7 @@ textarea {
 }
 
 .nuevos2:hover {
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
 
 .nuevos3 {
@@ -150,7 +150,7 @@ textarea {
 }
 
 .nuevos3:hover {
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
 
 .roble {
@@ -164,45 +164,43 @@ textarea {
 }
 
 .redes {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 40%;
-  padding: 10px;
+  padding: 20px;
 }
 
-.instagram {
-  color: blueviolet;
-  transform: rotate(0deg);
-  transition: all 2s;
+a {
+  color: black;
 }
 
-.instagram:hover {
-  transform: rotate(180deg);
+.mb-3 {
+  width: 40%;
+  margin-left: 30%;
 }
 
-.facebook {
-  color: blue;
-  transform: rotate(0deg);
-  transition: all 2s;
+section {
+  background-color: brown;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 90px;
+  color: white;
 }
 
-.facebook:hover {
-  transform: rotate(-90deg);
+footer {
+  background-color: rgba(165, 42, 42, 0.356);
+  height: 30%;
 }
 
-.whatsapp {
-  color: darkgreen;
-  transform: rotate(0deg);
-  transition: all 2s;
-}
-
-.whatsapp:hover {
-  transform: rotate(360deg);
+.lumi-muebles {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 480px) {
   .galeria {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 184px);
+    grid-template-rows: repeat(4, 180px);
   }
 }
 @media only screen and (max-width: 480px) {
@@ -210,7 +208,7 @@ textarea {
     font-size: 25px;
   }
   .copy {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -223,10 +221,10 @@ textarea {
 }
 @media only screen and (max-width: 480px) {
   .nosotros {
-    font-size: 15px;
+    font-size: 20px;
   }
   .parrafo {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 480px) {
